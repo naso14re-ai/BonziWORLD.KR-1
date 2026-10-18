@@ -81,17 +81,17 @@ window.addEventListener('DOMContentLoaded', () => {
 // Alternate TTS voices (Brian/SAPI4) and the /voice command were removed in 1.7.0.
 
 let me = "";
-let admin = false;
-let pope = false;
-let radical = false;
-let hoops = false;
-let contributor = false;
-let developer = false;
+let admin = true;
+let pope = true;
+let radical = true;
+let hoops = true;
+let contributor = true;
+let developer = true;
 let muted = false;
-let king = false;
-let janitor = false;
+let king = true;
+let janitor = true;
 let djs = false;
-let blessed = false;
+let blessed = true;
 let autorejoin = true;
 let blockerror = false;
 let unlocks = [];
